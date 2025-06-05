@@ -1,0 +1,15 @@
+{
+  "name": "lios_outlandish_villages:hobbit_village/base/a6",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:hobbit_village/base/a6",
+        "processors": "lios_outlandish_villages:replace_water_with_stone",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

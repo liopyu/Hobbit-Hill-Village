@@ -1,0 +1,178 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:water\",display:{Name:'{\"text\":\"Spring Water\",\"italic\":false}',Lore:['{\"text\":\"The Water Ever.\",\"italic\":true}']},HideFlags:32}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:16766810,CustomPotionEffects:[{Amplifier:1,Duration:1800,Id:10},{Amplifier:4,Duration:1,Id:6},{Amplifier:1,Duration:1800,Id:1},{Amplifier:1,Duration:2400,Id:21}],display:{Lore:['{\"text\":\"Properly made from wild honey,\",\"italic\":true}','{\"text\":\"this drink grants divine strength and vitality.\",\"italic\":true}'],Name:'{\"text\":\"Ambrosia\",\"italic\":false,\"color\":\"gold\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:255,CustomPotionEffects:[{Amplifier:1,Duration:1800,Id:1},{Amplifier:0,Duration:1800,Id:5}],display:{Name:'{\"text\":\"Soda\",\"italic\":false}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:65280,CustomPotionEffects:[{Amplifier:0,Duration:1200,Id:1},{Amplifier:0,Duration:600,Id:5}],display:{Name:'{\"text\":\"Tea\",\"italic\":false}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:10040115,CustomPotionEffects:[{Amplifier:2,Duration:1200,Id:5},{Amplifier:0,Duration:300,Id:9}],display:{Name:'{\"text\":\"Rum\",\"italic\":false,\"color\":\"dark_red\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:13458603,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:8},{Amplifier:0,Duration:600,Id:2}],display:{Name:'{\"text\":\"Energy Drink\",\"italic\":false,\"color\":\"red\"}',Lore:['{\"text\":\"Boosts your energy but makes you shaky.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:13369599,CustomPotionEffects:[{Amplifier:0,Duration:600,Id:25},{Amplifier:0,Duration:300,Id:18}],display:{Name:'{\"text\":\"Champagne\",\"italic\":false,\"color\":\"gold\"}',Lore:['{\"text\":\"Light and bubbly, but it goes to your head.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:16711935,CustomPotionEffects:[{Amplifier:1,Duration:1800,Id:11}],display:{Name:'{\"text\":\"Pink Lemonade\",\"italic\":false,\"color\":\"pink\"}',Lore:['{\"text\":\"Refreshing and revitalizing!\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:3368703,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:3},{Amplifier:0,Duration:600,Id:19}],display:{Name:'{\"text\":\"Whiskey\",\"italic\":false,\"color\":\"dark_yellow\"}',Lore:['{\"text\":\"A strong drink with a bitter aftertaste.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:5636095,CustomPotionEffects:[{Amplifier:1,Duration:1800,Id:1}],display:{Name:'{\"text\":\"Iced Coffee\",\"italic\":false,\"color\":\"brown\"}',Lore:['{\"text\":\"Keeps you going all day.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:255,CustomPotionEffects:[{Amplifier:0,Duration:1200,Id:22},{Amplifier:1,Duration:400,Id:18}],display:{Name:'{\"text\":\"Vodka\",\"italic\":false,\"color\":\"white\"}',Lore:['{\"text\":\"Clear and potent.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:65535,CustomPotionEffects:[{Amplifier:2,Duration:1200,Id:10},{Amplifier:0,Duration:400,Id:9}],display:{Name:'{\"text\":\"Blue Lagoon\",\"italic\":false,\"color\":\"blue\"}',Lore:['{\"text\":\"A tropical burst of energy.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:8388736,CustomPotionEffects:[{Amplifier:0,Duration:2000,Id:23}],display:{Name:'{\"text\":\"Smoothie\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"Delicious and healthy.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:8388608,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:13},{Amplifier:0,Duration:600,Id:15}],display:{Name:'{\"text\":\"Dark Ale\",\"italic\":false,\"color\":\"dark_red\"}',Lore:['{\"text\":\"Rich and heavy, but it slows you down.\",\"italic\":true}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:11743532,CustomPotionEffects:[{Amplifier:0,Duration:800,Id:5},{Amplifier:0,Duration:300,Id:18}],display:{Name:'{\"text\":\"Margarita\",\"italic\":false,\"color\":\"light_green\"}',Lore:['{\"text\":\"A refreshing mix with a punch.\",\"italic\":true}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

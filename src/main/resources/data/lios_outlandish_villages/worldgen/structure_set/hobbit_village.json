@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "lios_outlandish_villages:hobbit_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 30,
+    "salt": 2135278901,
+    "exclusion_zone": {
+      "chunk_count": 16,
+      "other_set": "villages"
+    }
+  }
+}

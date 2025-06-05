@@ -1,0 +1,288 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cream",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:awkward\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:255,CustomPotionEffects:[{Amplifier:1,Duration:3600,Id:21},{Amplifier:0,Duration:100,Id:15}],display:{Name:'{\"text\":\"Calming Tonic\",\"italic\":false,\"color\":\"blue\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:12833280,CustomPotionEffects:[{Amplifier:2,Duration:300,Id:10},{Amplifier:1,Duration:400,Id:17}],display:{Name:'{\"text\":\"Invigorating Tonic\",\"italic\":false,\"color\":\"light_purple\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:16776960,CustomPotionEffects:[{Amplifier:2,Duration:600,Id:3},{Amplifier:0,Duration:60,Id:9}],display:{Name:'{\"text\":\"Focus Tonic\",\"italic\":false,\"color\":\"yellow\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:5635840,CustomPotionEffects:[{Amplifier:3,Duration:1200,Id:8},{Amplifier:0,Duration:300,Id:2}],display:{Name:'{\"text\":\"Climbing Tonic\",\"italic\":false,\"color\":\"green\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:4210752,CustomPotionEffects:[{Amplifier:2,Duration:900,Id:11},{Amplifier:1,Duration:200,Id:18}],display:{Name:'{\"text\":\"Ironhide Tonic\",\"italic\":false,\"color\":\"dark_gray\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:8388736,CustomPotionEffects:[{Amplifier:0,Duration:2400,Id:16},{Amplifier:0,Duration:60,Id:15}],display:{Name:'{\"text\":\"Clarity Tonic\",\"italic\":false,\"color\":\"purple\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:6737151,CustomPotionEffects:[{Amplifier:2,Duration:900,Id:1},{Amplifier:1,Duration:200,Id:18}],display:{Name:'{\"text\":\"Swiftness Tonic\",\"italic\":false,\"color\":\"aqua\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:39321,CustomPotionEffects:[{Amplifier:0,Duration:3600,Id:13},{Amplifier:1,Duration:200,Id:4}],display:{Name:'{\"text\":\"Guardian’s Tonic\",\"italic\":false,\"color\":\"aqua\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:8421504,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:11},{Amplifier:1,Duration:200,Id:4}],display:{Name:'{\"text\":\"Endurance Tonic\",\"italic\":false,\"color\":\"gray\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:11743532,CustomPotionEffects:[{Amplifier:2,Duration:600,Id:5},{Amplifier:1,Duration:200,Id:2}],display:{Name:'{\"text\":\"Strength Tonic\",\"italic\":false,\"color\":\"dark_red\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:7340032,CustomPotionEffects:[{Amplifier:0,Duration:1200,Id:14},{Amplifier:1,Duration:200,Id:18}],display:{Name:'{\"text\":\"Mystic Tonic\",\"italic\":false,\"color\":\"dark_purple\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

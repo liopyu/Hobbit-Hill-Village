@@ -1,0 +1,200 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:writable_book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:ink_sac"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "They called me a mere potion brewer, a simple alchemist with no real power. They saw only the vials and herbs, never understanding the true potential of my craft. But I knew... I knew there was more. I discovered the power that lies within the Nether Star."
+                },
+                {
+                  "text": "For years, I studied in secret, watching and waiting. The villagers, so naive and trusting, never suspected the dark experiments taking place beneath their feet. But I needed more than potions and powders. I needed something... extraordinary."
+                },
+                {
+                  "text": "The day I obtained the Nether Star was the day my destiny was sealed. Its power surged through me, whispering secrets of unimaginable strength. With it, I could bend the very fabric of reality, command life and death, and finally take what should be mine."
+                },
+                {
+                  "text": "Soon, I'll make my move. The village will bow before me, or it will burn. They won't understand until it's too late, until they see me standing above them, with the Nether Star blazing in my grasp. And when they look into my eyes, they will know fear."
+                }
+              ],
+              "mode": "insert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "I was once a simple villager, living in peace with my family. We had little, but it was enough. Then one day, a stranger came, eyes cold and unfeeling. Without a word, he took me from everything I knew, dragging me to a faraway place where I was forced to work."
+                },
+                {
+                  "text": "For days, I labored under his watchful gaze, my hands worn and my heart heavy. But every night, I dreamed of my family. I swore I would escape, find my way back to them, and we would be together again. That hope kept me alive."
+                },
+                {
+                  "text": "One night, I seized my chance. I ran as fast as my legs could carry me, desperate to return to my village. But when I arrived, I found nothing but ruins. My home was gone, my family lost. I fell to my knees, the pain more than I could bear."
+                },
+                {
+                  "text": "In that moment, something inside me broke. The sadness turned to anger, and anger became a burning need for revenge. I wander now, seeking the one who took everything from me. When I find him, he will learn what it means to suffer..."
+                }
+              ],
+              "mode": "insert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "I was once an adventurer, a wanderer of realms, seeking treasures in places others feared to tread. The Nether was my greatest challenge, its fiery depths promising secrets beyond imagination. But arrogance was my downfall, and I ventured too far."
+                },
+                {
+                  "text": "The blaze's fire consumed me, its searing heat unbearable. My sword slipped from my hand as I fell, the world fading into darkness. I thought it was the end, that my journey was over. But something pulled me back, something dark and ancient."
+                },
+                {
+                  "text": "I awoke in the ashes, my body twisted and blackened. The bones that once held strength now moved with an unnatural stiffness. I reached out, but my hand was no longer my own. It was the charred, skeletal limb of a monster. I was no longer alive. I was something else."
+                },
+                {
+                  "text": "Now, I wander the Nether, a shadow of the adventurer I once was. The flames no longer burn, but the hunger within me grows. I seek the warmth of life I've lost, but it slips further away with every step. Perhaps this is my curse: to haunt this realm as withered bones..."
+                }
+              ],
+              "mode": "insert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Day 1: Life in the village is calm, but too calm. Every day, I wake up, tend to the crops, and trade with neighbors. It's a good life, but I can't help but feel there's more out there. I want to see the world, to feel the thrill of adventure."
+                },
+                {
+                  "text": "Day 15: I told the others about my dreams of leaving. They laughed, said it was foolish to want more. They spoke of the dangers outside the walls, of creatures that lurk in the night. But I've made up my mind. Tomorrow, I'll leave and find my own path."
+                },
+                {
+                  "text": "Day 30: It's been weeks since I left. The world is as beautiful as I imagined, and as dangerous as they warned. Today, I found a cave. There's something about it, something calling to me from within. I'll explore it. Just for a little while..."
+                },
+                {
+                  "text": "Day... I don't know: I'm trapped. There's a glowing box in the center of this room, and monsters keep appearing from it. I've found a crevice to hide in, but there's no way out. My food is running low, and I'm so tired. I thought there would be more to this journey... I thought..."
+                }
+              ],
+              "mode": "insert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
