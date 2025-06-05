@@ -8,7 +8,7 @@
         "fabric-api-base": "*"
     },
     "name": "${mod_name}",
-    "id": "lios_outlandish_villages",
+    "id": "hobbit-hill-village",
     "version": "${mod_version}",
     "description": "${mod_description}",
     "license": "${mod_license}"
