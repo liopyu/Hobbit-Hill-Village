@@ -59,7 +59,7 @@
                     "input_predicate": {
                         "block": "minecraft:stone",
                         "predicate_type": "minecraft:random_block_match",
-                        "probability": 0.10
+                        "probability": 0.1
                     },
                     "location_predicate": {
                         "predicate_type": "minecraft:always_true"
@@ -70,8 +70,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.1
                     },
                     "location_predicate": {
@@ -83,8 +83,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -96,8 +96,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -109,8 +109,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.1
                     },
                     "location_predicate": {
@@ -122,8 +122,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.1
                     },
                     "location_predicate": {
@@ -135,8 +135,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.1
                     },
                     "location_predicate": {
@@ -148,8 +148,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.1
                     },
                     "location_predicate": {
@@ -161,8 +161,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.1
                     },
                     "location_predicate": {
@@ -174,8 +174,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -187,8 +187,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -200,8 +200,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -213,8 +213,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -226,8 +226,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -239,8 +239,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -252,8 +252,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -265,8 +265,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -278,8 +278,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -291,8 +291,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.3
                     },
                     "location_predicate": {
@@ -304,8 +304,8 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
                         "probability": 0.4
                     },
                     "location_predicate": {
@@ -317,8 +317,268 @@
                 },
                 {
                     "input_predicate": {
-                        "predicate_type": "minecraft:random_block_match",
-                        "block": "minecraft:grass",
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:short_grass",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:wither_rose"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:dandelion"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:fern"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:azalea"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:flowering_azalea"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_mushroom"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_mushroom"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:poppy"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:blue_orchid"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:allium"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:azure_bluet"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_tulip"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:orange_tulip"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:white_tulip"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:pink_tulip"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:oxeye_daisy"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cornflower"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.3
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:lily_of_the_valley"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
+                        "probability": 0.4
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:moss_carpet"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:tag_match",
+                        "tag": "c:grass",
                         "probability": 0.1
                     },
                     "location_predicate": {
