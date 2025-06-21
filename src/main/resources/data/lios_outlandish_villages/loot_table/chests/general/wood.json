@@ -1,0 +1,222 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:oak_planks",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:birch_planks",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_planks",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jungle_planks",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:acacia_planks",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dark_oak_planks",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:oak_log",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:birch_log",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_log",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jungle_log",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:acacia_log",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dark_oak_log",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 10,
+                                "max": 34
+                            },
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

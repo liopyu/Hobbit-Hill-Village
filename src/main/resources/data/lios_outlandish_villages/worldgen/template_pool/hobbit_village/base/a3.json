@@ -10,6 +10,15 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "lios_outlandish_villages:hobbit_village/base/a3_2",
+        "processors": "lios_outlandish_villages:replace_water_with_stone",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }

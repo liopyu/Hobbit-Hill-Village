@@ -1,0 +1,687 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Spring Water",
+                                "type": "text",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "The Water Ever.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:water"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Ambrosia",
+                                "type": "text",
+                                "italic": false,
+                                "color": "gold"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Properly made from wild honey,",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "this drink grants divine strength and vitality.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 16766810,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:regeneration",
+                                            "amplifier": 1,
+                                            "duration": 1800
+                                        },
+                                        {
+                                            "id": "minecraft:instant_health",
+                                            "amplifier": 4,
+                                            "duration": 1
+                                        },
+                                        {
+                                            "id": "minecraft:speed",
+                                            "amplifier": 1,
+                                            "duration": 1800
+                                        },
+                                        {
+                                            "id": "minecraft:saturation",
+                                            "amplifier": 1,
+                                            "duration": 2400
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Soda",
+                                "type": "text",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 255,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:speed",
+                                            "amplifier": 1,
+                                            "duration": 1800
+                                        },
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 0,
+                                            "duration": 1800
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Tea",
+                                "type": "text",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 65280,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:speed",
+                                            "amplifier": 0,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 0,
+                                            "duration": 600
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Rum",
+                                "type": "text",
+                                "italic": false,
+                                "color": "dark_red"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 10040115,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 2,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:nausea",
+                                            "amplifier": 0,
+                                            "duration": 300
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Energy Drink",
+                                "type": "text",
+                                "italic": false,
+                                "color": "red"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Boosts your energy but makes you shaky.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 13458603,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "amplifier": 1,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:slowness",
+                                            "amplifier": 0,
+                                            "duration": 600
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Champagne",
+                                "type": "text",
+                                "italic": false,
+                                "color": "gold"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Light and bubbly, but it goes to your head.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 13369599,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:bad_omen",
+                                            "amplifier": 0,
+                                            "duration": 600
+                                        },
+                                        {
+                                            "id": "minecraft:weakness",
+                                            "amplifier": 0,
+                                            "duration": 300
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Pink Lemonade",
+                                "type": "text",
+                                "italic": false,
+                                "color": "light_purple"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Refreshing and revitalizing!",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 16711935,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:resistance",
+                                            "amplifier": 1,
+                                            "duration": 1800
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Whiskey",
+                                "type": "text",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "A strong drink with a bitter aftertaste.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 3368703,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:haste",
+                                            "amplifier": 1,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:poison",
+                                            "amplifier": 0,
+                                            "duration": 600
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Iced Coffee",
+                                "type": "text",
+                                "italic": false,
+                                "color": "dark_gray"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Keeps you going all day.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 5636095,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:speed",
+                                            "amplifier": 1,
+                                            "duration": 1800
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Vodka",
+                                "type": "text",
+                                "italic": false,
+                                "color": "white"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Clear and potent.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 255,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:glowing",
+                                            "amplifier": 0,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:weakness",
+                                            "amplifier": 1,
+                                            "duration": 400
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Blue Lagoon",
+                                "type": "text",
+                                "italic": false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "A tropical burst of energy.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 65535,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:regeneration",
+                                            "amplifier": 2,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:nausea",
+                                            "amplifier": 0,
+                                            "duration": 400
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Smoothie",
+                                "type": "text",
+                                "italic": false,
+                                "color": "green"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Delicious and healthy.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 8388736,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:levitation",
+                                            "amplifier": 0,
+                                            "duration": 2000
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Dark Ale",
+                                "type": "text",
+                                "italic": false,
+                                "color": "dark_red"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Rich and heavy, but it slows you down.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 8388608,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:water_breathing",
+                                            "amplifier": 1,
+                                            "duration": 1200
+                                        },
+                                        {
+                                            "id": "minecraft:blindness",
+                                            "amplifier": 0,
+                                            "duration": 600
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "value": "minecraft:potion",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Margarita",
+                                "type": "text",
+                                "italic": false,
+                                "color": "green"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "A refreshing mix with a punch.",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "item": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 11743532,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 0,
+                                            "duration": 800
+                                        },
+                                        {
+                                            "id": "minecraft:weakness",
+                                            "amplifier": 0,
+                                            "duration": 300
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

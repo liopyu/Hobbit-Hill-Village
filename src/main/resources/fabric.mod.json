@@ -8,7 +8,7 @@
         "fabric-api-base": "*"
     },
     "name": "${mod_name}",
-    "id": "hobbit-hill-village",
+    "id": "hobbit_hill_village",
     "version": "${mod_version}",
     "description": "${mod_description}",
     "license": "${mod_license}"
