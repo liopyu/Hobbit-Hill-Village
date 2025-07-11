@@ -1,0 +1,9 @@
+{
+  "type": "bastion_remnant",
+  "biomes": "#lios_outlandish_villages:has_structure/hobbit_village",
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "lios_outlandish_villages:hobbit_village/base/a1",
+    "size": 7
+  }
+}

@@ -1,4 +1,4 @@
-package net.liopyu.lov;
+package net.liopyu.hobbithill;
 
 
 import net.minecraftforge.fml.common.Mod;
