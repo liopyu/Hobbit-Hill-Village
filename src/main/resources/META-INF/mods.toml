@@ -8,3 +8,4 @@ displayName = "${mod_name}"
 description = '''
 ${mod_description}
 '''
+logoFile = "hobbit_hill_village.png"
